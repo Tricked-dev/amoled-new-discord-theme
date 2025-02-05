@@ -1,0 +1,88 @@
+
+@import url(https://dimdengd.github.io/discord-oled-theme/code.css);
+:root {
+	--background-primary: black;
+	--background-secondary: black;
+	--background-tertiary: black;
+	--background-secondary-alt: black;
+	--background-accent: black;
+	--activity-card-background: black;
+}
+
+.theme-dark {
+    --background-primary: black;
+    --background-secondary-alt: rgb(3, 2, 3);
+}
+.vc-settings-donate {
+	display: none !important;
+}
+
+div.container_f37cb1 > header.header_f37cb1 {
+	background-color: #09090B
+}
+
+[aria-label="true shiggy fan"] {
+	display: none
+}
+
+[aria-label="Vencord Contributor"] {
+	display: none
+}
+[data-list-id="chat-messages"] {
+	background-color: black;
+}
+
+#channels, [aria-label="Private channels"] > [data-jump-section="global"] {
+	background-color: #0A0A0A;
+}
+
+div > section[aria-label="User area"].panels_c48ade   {
+	background-color: #18181B;
+}
+
+div > nav[aria-label="Servers sidebar"].guilds_c48ade {
+	background-color: black;
+}
+ 
+.visual-refresh .sidebar_c48ade:after {
+	display: none !important;
+	background-color: black !important;
+}
+
+section.panels_c48ade:after{
+	background-color: black;
+}
+
+main, .chatContent_f75fb0, .wrapper_d852db[aria-label=" (channel)"] {
+	background-color: black !important;
+}
+
+div .themedBackground__74017 {
+	background-color: #18181B;
+}
+
+.openOnHover_c64476 {
+	display: none
+}
+.membersGroup_cbd271:has(.headerContainer_bc6acb) {
+	display: none
+}
+.headerContainer_bc6acb {
+	display: none
+}
+
+.vc-notification-container, .vc-notification-root {
+	display: none
+}
+
+[aria-label="Threads"] {
+	display: none
+}
+
+[alt="shiggy"] {
+	display: none
+}
+
+.footer_aa1bff {
+	display: none
+}
